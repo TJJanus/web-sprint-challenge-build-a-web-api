@@ -1,4 +1,5 @@
 {
+    "engines": {"node": "15.0.1"},
     "name": "node-api-challenge",
     "version": "1.0.0",
     "description": "Node API Challenge",
