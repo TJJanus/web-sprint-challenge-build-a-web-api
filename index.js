@@ -17,6 +17,7 @@ require('dotenv').config()
 const server = require('./server')
 
 const port = process.env.PORT
+const secret = process.env.SECRET_THING || 'foo';
 
 
 server.listen(port, () => {
